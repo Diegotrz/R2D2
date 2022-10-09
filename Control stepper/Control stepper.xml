@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\User\Videos\R2D2\Control stepper\Control stepper.kicad_sch</source>
+    <date>8/10/2022 17:22:35</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Control stepper.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51ca531b-035d-45dd-92b6-0f27ed28f484</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a4916c-bf13-491f-aaba-30cfa7272da3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>468ecb57-4ff0-4e7b-a9fc-8e6bdb7f3dd7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2n2222a</value>
+      <footprint>Package_TO_SOT_THT:TO-3PB-3_Vertical</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/2sd1047.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SD1047" description="12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>651ef94c-8934-4838-8a7e-2e5dc83102b7</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2n2222a</value>
+      <footprint>Package_TO_SOT_THT:TO-3PB-3_Vertical</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/2sd1047.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SD1047" description="12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>383e22ae-7025-40ad-b4cf-dc8861149b49</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2n2222a</value>
+      <footprint>Package_TO_SOT_THT:TO-3PB-3_Vertical</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/2sd1047.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SD1047" description="12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ce3dcaa-64a4-4ec7-925e-cda34a695a36</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2n2222a</value>
+      <footprint>Package_TO_SOT_THT:TO-3PB-3_Vertical</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/2sd1047.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2SD1047" description="12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eec7807-2036-42a0-b763-d8d7931d6a94</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08599c5d-18df-4076-8d95-9afe2b0b7202</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_US</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff7053b8-655f-458a-bda7-274dbe0393a2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>4017</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4017" description="Johnson Counter ( 10 outputs )"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Control stepper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97b177ea-de0c-48c8-bcee-9dde2dbdcc6f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4017">
+      <description>Johnson Counter ( 10 outputs )</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4017</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q5" type="output"/>
+        <pin num="2" name="Q1" type="output"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q2" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="6" name="Q7" type="output"/>
+        <pin num="7" name="Q3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="Q8" type="output"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q9" type="output"/>
+        <pin num="12" name="Cout" type="output"/>
+        <pin num="13" name="CKEN" type="input"/>
+        <pin num="14" name="CLK" type="input"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2SD1047">
+      <description>12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB</description>
+      <docs>http://www.st.com/resource/en/datasheet/2sd1047.pdf</docs>
+      <footprints>
+        <fp>TO?3PB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SD1047</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-3PB-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/resource/en/datasheet/2sd1047.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>E:\Cursos completos\IC datasheet\6.0\share\kicad\symbols\/4xxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>E:\Cursos completos\IC datasheet\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Cursos completos\IC datasheet\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>E:\Cursos completos\IC datasheet\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/555_signal">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="CKEN" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="Q2" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="Q3" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q0" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="Q1" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="Q4" pintype="output"/>
+      <node ref="U1" pin="15" pinfunction="Reset" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="Q5" pintype="output"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="Q6" pintype="output"/>
+    </net>
+    <net code="18" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="Q7" pintype="output"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="Q8" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="Q9" pintype="output"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="Cout" pintype="output"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
